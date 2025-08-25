@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #6a5acd, #9370db);
+  color: #fff;
+}
+
+.cronometro {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px; /* limite no desktop */
+}
+
+h1 {
+  font-size: clamp(2rem, 8vw, 4rem); /* se adapta à tela */
+  margin: 0 0 20px;
+  word-wrap: break-word;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* espaço entre os botões */
+}
+
+.botoes button {
+  flex: 1 1 100px; /* cresce ou encolhe, mas mantém mínimo de 100px */
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.botoes button:hover {
+  background-color: #45a049;
+}
+
+#pausar {
+  background-color: #f0ad4e;
+}
+
+#pausar:hover {
+  background-color: #ec971f;
+}
+
+#resetar {
+  background-color: #d9534f;
+}
+
+#resetar:hover {
+  background-color: #c9302c;
+}
+
+/* Responsividade extra */
+@media (max-width: 480px) {
+  .botoes button {
+    flex: 1 1 80px;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
