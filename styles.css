@@ -65,7 +65,7 @@ h1 {
 }
 
 /* Responsividade extra */
-@media (max-width: 300px) {
+@media (max-width: 200px) {
   .botoes button {
     flex: 1 1 30px;
     font-size: 0.2rem;
