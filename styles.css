@@ -77,7 +77,7 @@ h1 {
   }
 
   .cronometro {
-    padding: 8px;
+    padding: 5px;
     max-width: 120px; /* reduz bastante a caixa */
   }
 }
