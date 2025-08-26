@@ -65,7 +65,7 @@ h1 {
 }
 
 /* Responsividade extra */
-@media (max-width: 100px) {
+@media (max-width: 220px) {
   .botoes button {
     flex: 1 1 60px;
     font-size: 0.4rem;
@@ -73,12 +73,12 @@ h1 {
   }
 
   h1 {
-    font-size: 0.7rem; /* tamanho bem menor do cronômetro */
+    font-size: 0.5rem; /* tamanho bem menor do cronômetro */
   }
 
   .cronometro {
     padding: 5px;
-    max-width: 120px; /* reduz bastante a caixa */
+    max-width: 220px; /* reduz bastante a caixa */
   }
 }
 
